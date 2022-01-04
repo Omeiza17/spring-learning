@@ -9,10 +9,10 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>domain-processor</artifactId>
+    <artifactId>domain-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>domain-processor</name>
-    <description>domain-processor</description>
+    <name>domain-service</name>
+    <description>domain-service</description>
     <properties>
         <java.version>11</java.version>
         <spring-cloud.version>2021.0.0</spring-cloud.version>
@@ -54,7 +54,6 @@
             <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
