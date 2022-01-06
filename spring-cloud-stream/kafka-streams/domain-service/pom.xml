@@ -9,10 +9,10 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>domain-service</artifactId>
+    <artifactId>nearEarthObject-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>domain-service</name>
-    <description>domain-service</description>
+    <name>nearEarthObject-service</name>
+    <description>nearEarthObject-service</description>
     <properties>
         <java.version>11</java.version>
         <spring-cloud.version>2021.0.0</spring-cloud.version>

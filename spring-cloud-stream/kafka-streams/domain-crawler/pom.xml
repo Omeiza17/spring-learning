@@ -9,10 +9,10 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>domain-crawler</artifactId>
+    <artifactId>nearEarthObject-crawler</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>domain-crawler</name>
-    <description>domain-crawler</description>
+    <name>nearEarthObject-crawler</name>
+    <description>nearEarthObject-crawler</description>
     <properties>
         <java.version>11</java.version>
     </properties>
