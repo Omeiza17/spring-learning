@@ -26,11 +26,10 @@ public class DomainCrawlerService {
 
     public void crawl() {
 
-        Mono<NearEarthObjects> domainListMono = WebClient.create().get()
+      WebClient.create().get()
                 .uri(String.format(NEOWSAPP_API, apiKey))
-                .accept(MediaType.APPLICATION_JSON).retrieve().bodyToMono(NearEarthObjects.class);
-
-        domainListMono
+                .accept(MediaType.APPLICATION_JSON).retrieve().bodyToMono(NearEarthObjects.class)
                 .subscribe(domainList -> domainList.getNearEarthObjects().forEach(domain -> kafkaTemplate.send(KAFKA_TOPIC, domain)));
+
     }
 }
